@@ -1,0 +1,5 @@
+- Tambah Folder /Output terlebih dahulu
+- Tambah kan data ke Folder /Data
+- Ganti nama path sesuai nama data yang ingin di proses pada 1_extract_text.py -> path = 'Data/Data_Review_Aplikasi_BRIMO_1204210044.csv'
+- Ganti nama df sesuai kolom text yang ingin di proses pada 1_extract_text.py -> print(df['review']) dan df['review'].to_csv('Output/1_extract_text.csv', index=False)
+- Ganti File 4_sentimen_analysis.py -> path = 'Output/2_preprocessed_text_output.csv' dan df_reviews = pd.read_csv(path)
