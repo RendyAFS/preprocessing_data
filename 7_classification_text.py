@@ -8,6 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
+from sklearn.model_selection import GridSearchCV
 
 # Pastikan resource ini sudah diunduh
 nltk.download('stopwords')

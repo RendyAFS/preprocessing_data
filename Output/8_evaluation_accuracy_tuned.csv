@@ -1,0 +1,6 @@
+Model,Accuracy
+Support Vector Machine (SVM),0.7350427350427351
+Logistic Regression,0.7692307692307693
+Random Forest Classifier,0.7863247863247863
+Naive Bayes Classifier,0.6923076923076923
+K-Nearest Neighbors (KNN),0.7008547008547008

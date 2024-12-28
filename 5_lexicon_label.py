@@ -57,4 +57,6 @@ df['label_sentiment'] = label_lexicon
 # Simpan DataFrame yang sudah diberi label ke file CSV baru
 df.to_csv('Output/5_lexicon_labeled.csv', index=False)
 
+print(df['label_sentiment'].value_counts())
+
 print("Proses selesai! Hasil sentimen telah disimpan di '5_lexicon_labeled.csv'")

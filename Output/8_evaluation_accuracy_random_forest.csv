@@ -1,0 +1,2 @@
+Model,Accuracy,Best Parameters
+Random Forest Classifier,0.7863247863247863,"{'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_depth': None}"
